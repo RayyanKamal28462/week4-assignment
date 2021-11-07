@@ -28,8 +28,8 @@ double c = sc.nextDouble();
 System.out.println("Enter quantity of third item:" );
 int quantity3 = sc.nextInt();
 System.out.println("Total price :" );
-System.out.println("Discount received:");
-System.out.println("Price to be paid:");
+System.out.println("Discount:");
+System.out.println("Price:");
 double total3 = c*quantity;
 
 double totalprice = total+ total2 + total3;
@@ -38,16 +38,16 @@ if (totalprice < 100.00) {
 	double discount = (totalprice*10)/100;
 	double x = totalprice - discount;
        System.out.printf("Total price       : RM%.2f%n" , totalprice);
-       System.out.printf("Discount received : RM%.2f%n" , discount);
-       System.out.printf("Price to be paid  : RM%.2f%n" , x);
+       System.out.printf("Discount : RM%.2f%n" , discount);
+       System.out.printf("Price : RM%.2f%n" , x);
        }
 
 if (totalprice > 100.00) {
 	double discount = (totalprice*20)/100;
 	double x = totalprice - discount;
        System.out.printf("Total price       : RM%.2f%n" , totalprice);
-       System.out.printf("Discount received : RM%.2f%n" , discount);
-       System.out.printf("Price to be paid  : RM%.2f%n" , x);
+       System.out.printf("Discount : RM%.2f%n" , discount);
+       System.out.printf("Price : RM%.2f%n" , x);
 	}
 
 	}
